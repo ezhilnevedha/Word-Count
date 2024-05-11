@@ -21,14 +21,19 @@ Add the counted number in the variable
 Run the program and display the results
 ### PROGRAM:
 ```
-
-
-
+#Developed by EZHIL NEVEDHA.K
+#Reg no:212223230055
+num_words =0
+with open('text.txt','r') as file1:
+    for i in file1:
+        word =i.split()
+        num_words += len(word)
+print("Number of words={}".format(num_words))
 
 ```
 ### OUTPUT:
+![alt text](<Screenshot 2024-05-11 212950.png>)
 
-
-
+![alt text](<Screenshot 2024-05-11 212651.png>)
 ### RESULT:
 Thus the program is written to find the word count from a text.
